@@ -25,7 +25,7 @@ from playwright.async_api import async_playwright, Page, Browser
 from playwright.async_api import TimeoutError as PlaywrightTimeoutError
 
 # ---------- настройки ----------
-BOT_TOKEN = os.getenv("BOT_TOKEN", "8607709885:AAGoI5WEptjTJg_Ro7hwHzqiB7JH28GZET8")
+BOT_TOKEN = os.getenv("BOT_TOKEN", "8782962228:AAEn6sW7pUp3TZk3PhHvfl5nyYyn_mMaKoc")
 TARGET_URL = "https://web.max.ru"
 QR_SELECTOR = "div.qr, .qr-container, div[data-testid='qr-code']" 
 LOGIN_TIMEOUT = 60_000
